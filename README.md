@@ -1,7 +1,6 @@
 # NeuroShell
 
-Official implementation of **NeuroShell: Input-Adaptive Shellsort Gap
-Sequences via Reinforcement Learning** (NeurIPS 2026).
+Official implementation of **Learning Spectrum-Matched Gap Sequences for Shellsort** (NeurIPS 2026).
 
 The policy selects a decreasing sequence of Shellsort gaps using PPO.  It is
 trained entirely on seven deterministic synthetic array families:
