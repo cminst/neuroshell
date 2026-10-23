@@ -1,4 +1,4 @@
-# NeuroShell
+<h1 align="center">Learning Spectrum-Matched Gap Sequences for Shellsort</h1>
 
 Official implementation of **Learning Spectrum-Matched Gap Sequences for Shellsort** (NeurIPS 2026).
 
