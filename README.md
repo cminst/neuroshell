@@ -1,6 +1,6 @@
 <h1 align="center">Learning Spectrum-Matched Gap Sequences for Shellsort</h1>
 
-Official implementation of **Learning Spectrum-Matched Gap Sequences for Shellsort** (NeurIPS 2026).
+This repository is the official implementation of the paper **Learning Spectrum-Matched Gap Sequences for Shellsort** (NeurIPS 2026).
 
 The policy selects a decreasing sequence of Shellsort gaps using PPO.  It is
 trained entirely on seven deterministic synthetic array families:
