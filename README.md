@@ -4,15 +4,15 @@ This repository is the official implementation of the paper **Learning Spectrum-
 
 ## Method
 
-For an array of length `N`, the observation has `K + 2` entries, where
+For an array of length `N`, we train an RL policy taking in an observation of size `K + 2` entries, where
 `K = floor(log2(N))`:
 
 - `K` inversion rates at strides `1, 2, 4, ..., N/2`;
 - remaining-pass budget; and
 - the preceding gap, normalized by `N`.
 
-The action space is a bounded geometric set of candidate gaps.  The policy is
-a two-hidden-layer MLP trained with PPO and evaluated greedily.
+The action space is a bounded geometric set of candidate next gaps.  The policy is
+a two-hidden-layer MLP trained with PPO and evaluated greedily. Refer to **[TODO: insert link!!!!]** for more details.
 
 ## Install
 
