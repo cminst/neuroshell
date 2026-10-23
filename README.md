@@ -2,16 +2,6 @@
 
 This repository is the official implementation of the paper **Learning Spectrum-Matched Gap Sequences for Shellsort** (NeurIPS 2026).
 
-The policy selects a decreasing sequence of Shellsort gaps using PPO.  It is
-trained entirely on seven deterministic synthetic array families:
-random, nearly sorted, reversed, interleaved, pipe organ, sawtooth, and
-many-duplicates.  No external data or pretrained checkpoint is required.
-
-The implementation also includes the six held-out families used in the
-expanded-mixture experiment: rotated, organ-reversed, sqrt-sorted,
-anti-Shellsort, mostly-equal, and Zipf.  They can be used as an expanded
-13-family training mixture or as evaluation families.
-
 ## Method
 
 For an array of length `N`, the observation has `K + 2` entries, where
