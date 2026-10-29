@@ -12,7 +12,7 @@ For an array of length `N`, we train an RL policy taking in an observation of si
 - the preceding gap, normalized by `N`.
 
 The action space is a bounded geometric set of candidate next gaps.  The policy is
-a two-hidden-layer MLP trained with PPO and evaluated greedily. Refer to **[TODO: insert link!!!!]** for more details.
+a two-hidden-layer MLP trained with PPO and evaluated greedily. Refer to [the paper](https://openreview.net/forum?id=Ym8pFbqtzJ) for more details.
 
 ## Install
 
