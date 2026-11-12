@@ -1,6 +1,6 @@
-<h1 align="center">Learning Spectrum-Matched Gap Sequences for Shellsort</h1>
+<h1 align="center">Faster Shellsort with Reinforcement Learning</h1>
 
-This repository is the official implementation of the paper **Learning Spectrum-Matched Gap Sequences for Shellsort** (NeurIPS 2026).
+This repository is the official implementation of the paper **Faster Shellsort with Reinforcement Learning** (NeurIPS 2026).
 
 ## Method
 
